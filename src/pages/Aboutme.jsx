@@ -5,10 +5,12 @@ const Aboutme = () => {
   return (
     <div className="container mt-4 text-white">
 
+   
       {/* Skills Card */}
+      <h2 className="card-title">Skills</h2>
       <div className="card mb-4 bg-primary">
         <div className="card-body">
-          <h2 className="card-title">Skills</h2>
+   
           <ul className="list-unstyled">
             <li>Languages: C/C++, Python, Solidity, JavaScript</li>
             <li>Frameworks: Django, React, Nodejs, Hardhat, Truffle, Geth</li>
@@ -18,7 +20,7 @@ const Aboutme = () => {
           </ul>
         </div>
       </div>
-
+      <h2 className="card-title">Experience</h2>
       {/* IEEE CS Card */}
       <div className="card mb-4 bg-success">
         <div className="card-body">
@@ -30,7 +32,7 @@ const Aboutme = () => {
             <li>Documented detailed records of financial transactions.</li>
           </ul>
         </div>
-      </div>
+    </div>
 
       {/* CYSEC Card */}
       <div className="card mb-4 bg-info">

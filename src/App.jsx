@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "./components/Header";
-import Particles from "react-particles";
+// import Particles from "react-particles";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 // import DarkModeToggleComponent from "./components/DarkModeToggle";
 // import Profilepic from "./components/Profilepic";
@@ -9,13 +9,14 @@ import ProfileCardContainer from "./components/ProfileCardContainer";
 import './App.css';
 import Projects from "./pages/Projects";
 import Aboutme from "./pages/Aboutme";
+import MyParticles from "./components/MyParticles";
 
 
 function Home() {
   return (
     <div>
       <Header />
-      <Particles />
+      <MyParticles />
       <ProfileCardContainer />
     </div>
   );
