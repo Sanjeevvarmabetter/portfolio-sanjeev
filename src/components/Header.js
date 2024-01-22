@@ -9,6 +9,7 @@ function Header() {
             <nav>
                 <a href='#'>Home</a>
                 <a href='/projects'>Projects</a>
+                <a href='/aboutme'>About Me</a>
                 <a href='http://localhost:8000'>Blog</a>
             </nav>
 

@@ -8,7 +8,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ProfileCardContainer from "./components/ProfileCardContainer";
 import './App.css';
 import Projects from "./pages/Projects";
-
+import Aboutme from "./pages/Aboutme";
 
 
 function Home() {
@@ -29,6 +29,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
+        <Route path="/aboutme" element={<Aboutme />} />
       </Routes>
     </Router>
   )
