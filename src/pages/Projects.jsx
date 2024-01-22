@@ -18,6 +18,8 @@ const Projects = ()  => {
 
 };
 
+//add bootstrap cards for projects
+
 export default Projects;
 
 
