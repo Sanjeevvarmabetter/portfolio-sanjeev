@@ -1,27 +1,18 @@
 import React, { useState } from 'react';
+
 import '../App.css';
 
 function Header() {
-
-    const [showprojects,setshowprojects] = useState(false);
-
-    const handleprojectclick = () => {
-        setshowprojects(!showprojects);
-    };
 
     return (
         <header>
             <nav>
                 <a href='#'>Home</a>
-                <a href='#' onClick={handleprojectclick}>Projects</a>
+                <a href='/projects'>Projects</a>
+                <a href='/aboutme'>About Me</a>
                 <a href='http://localhost:8000'>Blog</a>
             </nav>
 
-            {showprojects && (
-                <div>
-                    Project 1: 
-                </div>
-            )}
         </header>
     );
 }
