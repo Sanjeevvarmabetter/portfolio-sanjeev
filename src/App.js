@@ -20,6 +20,7 @@ function App() {
       <ProfileCardContainer />
       {/* <Card /> */}
       </div>
+
   
   );
 }
