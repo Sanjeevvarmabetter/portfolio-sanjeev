@@ -9,14 +9,14 @@ import ProfileCardContainer from "./components/ProfileCardContainer";
 import './App.css';
 import Projects from "./pages/Projects";
 import Aboutme from "./pages/Aboutme";
-import MyParticles from "./components/MyParticles";
+
 
 
 function Home() {
   return (
     <div>
       <Header />
-      <MyParticles />
+      {/* <MyParticles /> */}
       <ProfileCardContainer />
     </div>
   );

@@ -27,8 +27,18 @@
     <title>React App</title>
   </head>
   <body>
+    <div id="particles-js"></div>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+    <style>#particles-js {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 0; /* Set a lower z-index than the container */
+  }</style>
+    
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
@@ -38,6 +48,9 @@
 
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
+      <
     -->
+    <script src="particles.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
