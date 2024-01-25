@@ -3,7 +3,7 @@ import React from 'react';
 
 const Aboutme = () => {
   return (
-    <div className="container mt-4 text-white">
+    <div className="container col-lg-4 h-100">
 
    
       {/* Skills Card */}
@@ -13,9 +13,9 @@ const Aboutme = () => {
    
           <ul className="list-unstyled">
             <li>Languages: C/C++, Python, Solidity, JavaScript</li>
-            <li>Frameworks: Django, React, Nodejs, Hardhat, Truffle, Geth</li>
+            <li>Frameworks: Django, React, Nodejs, Hardhat, Geth</li>
             <li>Database: PostgreSQL</li>
-            <li>Tools: Git, Docker, IPFS, Linux, Ganache, Remix, Apache Spark</li>
+            <li>Tools: Git, IPFS, Linux, Ganache, Remix, Apache Spark</li>
             <li>Blockchain: Ethereum, Solana</li>
           </ul>
         </div>
