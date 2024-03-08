@@ -153,3 +153,11 @@ h1 {
   font-size: 24px;
   font-weight: bold;
 }
+
+.social-icons {
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 5% ;
+  margin-right: 3em;
+
+} 
