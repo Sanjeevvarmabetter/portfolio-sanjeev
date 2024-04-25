@@ -7,6 +7,7 @@ import { BrowserRouter as Router,Routes,Route} from "react-router-dom";
 // import Card from "./components/Card";
 import ProfileCardContainer from "./components/ProfileCardContainer";
 import './App.css';
+import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Aboutme from "./pages/Aboutme";
 
@@ -28,9 +29,11 @@ function App() {
   return (
     <Router>
       <Routes>
+      
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/aboutme" element={<Aboutme />} />
+        <Route path="/about" element={<About />} />
       </Routes>
     </Router>
   )
