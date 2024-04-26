@@ -13,12 +13,7 @@ const About = () => {
 Currently, I am seeking like-minded individuals to collaborate with who share an interest in blockchain technology and its potential applications.
 
 
-
-
-
-
-
-            </p>
+</p>
         
         </div>
         <div className="interest card">
